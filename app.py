@@ -5,10 +5,7 @@ import json
 from PIL import Image
 import base64
 from io import BytesIO
-from dotenv import load_dotenv, find_dotenv
 
-# Load environment variables
-load_dotenv(find_dotenv())
 
 # Helper function to call API endpoint
 def get_completion(inputs, parameters=None, ENDPOINT_URL=st.secrets['HF_API_TTI_BASE']):
