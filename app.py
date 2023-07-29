@@ -5,7 +5,7 @@ import json
 from PIL import Image
 import base64
 from io import BytesIO
-st.secrets['CURL_CA_BUNDLE']=''
+
 
 # Helper function to call API endpoint
 def get_completion(inputs, parameters=None, ENDPOINT_URL=st.secrets['HF_API_TTI_BASE']):
