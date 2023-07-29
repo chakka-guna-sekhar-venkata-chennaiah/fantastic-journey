@@ -1,2 +1,2 @@
 streamlit
-transformers==4.13.0
+transformers
